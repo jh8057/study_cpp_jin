@@ -18,7 +18,6 @@ int main()
     {
         idx1 = rand() % 45;
         idx2 = rand() % 45;
-        cout << "shuffle " << idx1 << " " << idx2 << endl;
 
         temp = lotto[idx1];
         lotto[idx1] = lotto[idx2];
